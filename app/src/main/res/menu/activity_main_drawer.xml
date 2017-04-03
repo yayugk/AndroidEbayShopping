@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/Home"
+            android:icon="@mipmap/ic_person_black_24dp"
+            android:title="@string/home">
+        </item>
+
+        <item android:id="@+id/Notification"
+            android:icon="@mipmap/ic_notifications_black_24dp"
+            android:title="@string/notification">
+        </item>
+
+        <item android:id="@+id/Messages"
+            android:icon="@mipmap/ic_message_black_24dp"
+            android:title="@string/messages">
+        </item>
+
+    </group>
+
+    <item android:title="@string/my_ebuy">
+        <menu>
+            <item android:id="@+id/Purchases"
+                android:icon="@mipmap/ic_credit_card_black_24dp"
+                android:title="@string/purchases">
+            </item>
+
+            <item android:id="@+id/Selling"
+                android:icon="@mipmap/ic_label_black_24dp"
+                android:title="@string/selling">
+            </item>
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/menu_bottom"
+        android:checkableBehavior="none">
+
+        <item android:id="@+id/Settings"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:title="@string/settings">
+        </item>
+
+
+
+        <item android:id="@+id/Help"
+            android:icon="@mipmap/ic_help_outline_black_24dp"
+            android:title="@string/help">
+        </item>
+
+        <item
+            android:id="@+id/menuLogout"
+            android:icon="@mipmap/sign_out"
+            android:title="@string/logout"
+            android:visible="true">
+        </item>
+
+        <item
+            android:id="@+id/menuLogin"
+            android:icon="@mipmap/ic_input_black_24dp"
+            android:title="Log in"
+            android:visible="true">
+
+        </item>
+    </group>
+</menu>
